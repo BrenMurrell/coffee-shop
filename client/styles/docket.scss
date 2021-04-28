@@ -1,0 +1,25 @@
+.docket {
+  font-family: 'DotGothic16', sans-serif;
+  color: $col-dark;
+  background-color: darken($col-white, 5%);
+  width: 300px;
+  margin-left: 64px;
+  padding: 16px;
+
+  &__heading {
+    margin: 0;
+    padding: 0;
+  }
+
+  &-list {
+    margin: 0;
+    padding: 0;
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      &.done {
+        text-decoration: line-through;
+      }
+    }
+  }
+}

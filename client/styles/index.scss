@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import 'globals/index.scss';
 
-html, 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
+@import 'base.scss';
+@import 'machine.scss';
+@import 'cup.scss';
+@import 'docket.scss';
+@import 'order.scss';

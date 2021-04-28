@@ -1,7 +1,13 @@
 import { combineReducers } from 'redux'
 
-import fruits from './fruits'
+import machineState from './machineState'
+import coffees from './coffees'
+import menu from './menu'
+import order from './order'
 
 export default combineReducers({
-  fruits
+  coffees,
+  machineState,
+  menu,
+  order
 })

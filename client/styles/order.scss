@@ -1,0 +1,45 @@
+.order-screen {
+  width: 300px;
+  margin-right: 64px;
+  background: $col-dark;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  &__button {
+    color: $col-white;
+    text-align: center;
+    width: 30%;
+    box-sizing: border-box;
+    min-height: 60px;
+    margin: 10px 0 0;
+    background-color: rgba($col-dark, 0.8);
+    &s {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 100%;
+      flex-direction: row;
+      margin: 0 auto;
+      height: 210px;
+
+    }
+  }
+
+  &__buy {
+    padding: 0 10px 10px;
+    border-top: 1px solid lime;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__list {
+    height: 100%;
+    color: lime;
+    font-family: "DotGothic16", sans-serif;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+  }
+
+}
